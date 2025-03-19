@@ -2,7 +2,7 @@ import { LatestNews, NewsByFilters } from '@/widgets/news';
 
 const MainPage = () => {
   return (
-    <main className='main gap-5'>
+    <main className='grid grid-cols-2 gap-5'>
       <LatestNews />
       <NewsByFilters />
     </main>

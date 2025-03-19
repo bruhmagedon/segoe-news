@@ -1,4 +1,4 @@
-import { Theme } from '@/app/providers/ThemeProvider';
+import { Theme } from '@/app/providers/ThemeProvider/ThemeProvider';
 import React, { useRef } from 'react';
 
 interface Props {

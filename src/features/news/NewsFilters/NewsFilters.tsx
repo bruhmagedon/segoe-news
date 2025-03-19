@@ -1,4 +1,4 @@
-import { useTheme } from '@/app/providers/ThemeProvider';
+import { useTheme } from '@/app/providers/ThemeProvider/ThemeProvider';
 import Categories from '@/features/category/ui/Categories/Categories';
 import Search from '@/features/search/ui/Search/Search';
 import Slider from '@/features/slider/ui/Slider/Slider';

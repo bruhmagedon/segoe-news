@@ -2,13 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-/* body {
-  @apply font-Segoe dark:bg-dark-theme transition-colors duration-150 ease-out;
-} */
-
 @layer base {
-  .base-layout {
-    @apply font-Segoe bg-light-theme dark:bg-dark-theme text-[#191919] transition-colors duration-150 ease-out dark:text-white;
+  body {
+    @apply bg-light-theme font-Segoe text-[#191919] transition-colors duration-150 ease-out;
   }
 
   @font-face {
@@ -34,6 +30,7 @@
     font-weight: 600;
     src: url('../../shared/assets/fonts/SegoeUI-SemiBold.woff2');
   }
+
   @font-face {
     font-display: swap;
     font-family: Segoe UI;
@@ -64,11 +61,6 @@
   .banners-list {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  }
-
-  .main {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
   }
 
   @media (max-width: 768px) {
